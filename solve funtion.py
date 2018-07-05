@@ -49,6 +49,7 @@ def solve(n):
     ans = thomas(LA,MB,UC,b)
     return ans
 
+ans = solve(100)
 
     
     
