@@ -5,7 +5,7 @@ Created on Thu Jul  5 21:33:48 2018
 @author: fhan
 """
 
-#https://www.wikiwand.com/en/Tridiagonal_matrix_algorithm
+# 三对角矩阵-追赶法：https://www.wikiwand.com/en/Tridiagonal_matrix_algorithm
 
 import numpy as np
 
