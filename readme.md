@@ -19,11 +19,11 @@ for collection in contourf.collections:
 ![图片](https://github.com/fhhan/eg/blob/master/China🇨🇳.png)
 
 ---
-### [2. 绘制箭头](https://github.com/fhhan/eg/blob/master/my_quiver.py)
+### [2. 绘制箭头](https://github.com/fhhan/eg/blob/master/myquiver.py)
 ![图片](quiver.png)
 
 ---
-### [3. 透明图层](https://github.com/fhhan/eg/blob/master/transparent.py)
+### [3. 透明图层](https://github.com/fhhan/eg/blob/master/transparent_fig.py)
 ```python
 ax.background_patch.set_visible(False)   #设置图片背景为不可见
 ax.outline_patch.set_visible(False)      #设置图片外面的outline方框
