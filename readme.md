@@ -21,3 +21,16 @@ for collection in contourf.collections:
 ---
 ### [2. 绘制箭头](https://github.com/fhhan/eg/blob/master/my_quiver.py)
 ![图片](quiver.png)
+
+---
+### [3. 透明图层](https://github.com/fhhan/eg/blob/master/transparent.py)
+```python
+ax.background_patch.set_visible(False)   #设置图片背景为不可见
+ax.outline_patch.set_visible(False)      #设置图片外面的outline方框
+#设置图片透明度
+alpha = 0
+fig.patch.set_alpha(alpha)
+ax.patch.set_alpha(alpha)
+fig.savefig('transparent.png',bbox_inches = 'tight',transparent=True)
+ ``` 
+![图片](transparent.png)
