@@ -75,3 +75,4 @@ sub_ax = fig.add_axes([0.60, 0.20, 0.17, 0.2],projection=proj)
 # Set figure extent
 sub_ax.set_extent([105, 125, 0, 25],crs=proj)
 sub_ax.add_geometries(shp.geometries(),crs=proj,edgecolor='black', linewidths=1,facecolor='none',zorder=10,alpha=0.8)
+fig.savefig('*.png',bbox_inches = 'tight')
