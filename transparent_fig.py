@@ -84,6 +84,10 @@ ax.add_geometries(cn_multipoly, crs=proj, edgecolor='black', linewidths=1, facec
 #设置 colorbar
 # fig.colorbar(contourf, format='%.1f',shrink=0.8,ax=ax)
 
+#设置 clabel
+#Plot contour labels for the heights, leaving a break in the contours for the text (inline=True)
+#plt.clabel(contour,  cn_levels, inline=True, fmt='%1i', fontsize=12)
+
 #设置子图，南海区域
 # sub_ax = fig.add_axes([0.60, 0.20, 0.17, 0.2],projection=proj)
 # # Add ocean, land, rivers and lakes
